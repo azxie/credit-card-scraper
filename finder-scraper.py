@@ -6,7 +6,6 @@ import datetime as dt
 import logging
 from zipfile import ZipFile
 from multiprocessing.dummy import Pool as ThreadPool 
-# import pandas as pd
 import re
 from typing import Dict
 import time
@@ -193,7 +192,4 @@ def main():
 
 if _name_ == "_main_":
   main()
-# import shutil
-# shutil.rmtree("markdown")
 
-# DISCONTINUED_REGEX.match("a")
